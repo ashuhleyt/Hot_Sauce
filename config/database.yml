@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: hot_sauce_development
+  database: spicy_sauce_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -57,7 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: hot_sauce_test
+  database: spicy_sauce_test
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: hot_sauce_production
-  username: hot_sauce
-  password: <%= ENV['HOT_SAUCE_DATABASE_PASSWORD'] %>
+  database: spicy_sauce_production
+  username: spicy_sauce
+  password: <%= ENV['SPICY_SAUCE_DATABASE_PASSWORD'] %>

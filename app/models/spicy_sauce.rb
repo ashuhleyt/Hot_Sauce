@@ -1,0 +1,2 @@
+class SpicySauce < ApplicationRecord
+end
