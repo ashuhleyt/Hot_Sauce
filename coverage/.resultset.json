@@ -243,12 +243,67 @@
           1,
           null,
           1,
+          1,
+          1,
           null
         ]
       },
       "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/spec/features/restaurants/show_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/spec/features/spicy_sauces/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/spec/models/restaurant_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
           null
         ]
       },
@@ -267,14 +322,51 @@
           null
         ]
       },
+      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/spec/models/spicy_sauce_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          null
+        ]
+      },
       "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/models/spicy_sauce.rb": {
         "lines": [
           1,
           1,
           null
         ]
+      },
+      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/controllers/restaurants_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/controllers/spicy_sauces_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1665685945
+    "timestamp": 1665704007
   }
 }
