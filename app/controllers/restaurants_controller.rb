@@ -1,5 +1,5 @@
-class RestaurantsController < ApplicationController
-  def index
-    @spicysauces = SpicySauce.all 
+class Restaurants < ApplicationController
+  def index 
+    @restaurants = Restaurant.all
   end
 end
