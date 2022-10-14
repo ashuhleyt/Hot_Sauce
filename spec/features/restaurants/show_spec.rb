@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'iteration 1, us-' do 
+RSpec.describe 'iteration 1, us-2' do 
   before :each do 
     @restaurant = Restaurant.create!(name: 'Illegal Petes', rating: 5, allows_children: true)
     @sauce1 = SpicySauce.create!(name: 'Colfax Crusader', spice_level: 8.5, calories: 25, made_today: true, restaurant_id: @restaurant.id)
