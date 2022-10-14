@@ -1,10 +1,11 @@
 require 'rails_helper'
 
-RSpec.describe 'iteration 1, us-1' do 
+RSpec.describe 'iteration 1, us-' do 
   before :each do 
     @restaurant = Restaurant.create!(name: 'Illegal Petes', rating: 5, allows_children: true)
+    @sauce1 = SpicySauce.create!(name: 'Colfax Crusader', spice_level: 8.5, calories: 25, made_today: true, restaurant_id: @restaurant.id)
   end
-  describe 'parent index' do 
+  describe 'parent show' do 
     it 'When I visit /parents/id, I see the name of each parent record' do 
 
       visit "/restaurants/#{@restaurant.id}"

@@ -9,7 +9,7 @@ RSpec.describe 'iteration 1, us3' do
     it 'when I visit /spicy_sauces, I see each child in the system with attributes' do 
       
       visit '/spicy_sauces'
-      # save_and_open_page
+    
       expect(page).to have_content('Name: Colfax Crusader')
       expect(page).to have_content('Spice Level: 8.5')
       expect(page).to have_content('Calories: 25')
