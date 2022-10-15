@@ -262,6 +262,10 @@
           1,
           1,
           null,
+          1,
+          2,
+          null,
+          null,
           null
         ]
       },
@@ -272,26 +276,14 @@
           null
         ]
       },
-      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/controllers/restaurants_controller.rb": {
+      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/models/spicy_sauce.rb": {
         "lines": [
           1,
-          1,
-          2,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/controllers/application_controller.rb": {
-        "lines": [
           1,
           null
         ]
       }
     },
-    "timestamp": 1665859719
+    "timestamp": 1665863544
   }
 }
