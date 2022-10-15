@@ -6,7 +6,7 @@ class CreateSpicySauces < ActiveRecord::Migration[5.2]
       t.integer :calories
       t.boolean :made_today
 
-      t.timestamps
+      t.timestamps 
     end
   end
 end
