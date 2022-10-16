@@ -1,5 +1,6 @@
 class RestaurantsSpicySaucesController < ApplicationController
   def index 
-    @spicysauces = SpicySauce.all
+    restaurants = Restaurant.find(params[:id])
+    @spicysauces = restaurants.spicy_sauces
   end
 end
