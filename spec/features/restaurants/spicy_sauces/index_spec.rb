@@ -19,4 +19,13 @@ RSpec.describe 'restaurant spicy sauces' do
       expect(page).to have_content('Made Fresh: true')
     end
   end 
+
+  # describe 'IT 2, US 13' do 
+  #   it 'links to the new sauce page from the restaurant sauces index page' do 
+  #     visit "/restaurants/#{@restaurant.id}/spicy_sauces"
+
+  #     click_link("New Sauce")
+  #     expect(current_path).to eq("/restaurants/#{@restaurant.id}/spicy_sauces/new")
+  #   end
+  # end
 end
