@@ -1,6 +1,6 @@
 <h1><center>Restaurants</center></h1>
 <% @restaurants.each do |restaurant| %>
-  <h2><center>Name: <%= restaurant.name %></center></h2> 
+  <h2><center>Name: <%= restaurant.name %><%= button_to "Edit #{restaurant.name}", "/restaurants/#{restaurant.id}/edit", method: :get %></center></h2> 
 <% end %>
 <center><%= link_to "New Restaurant", "/restaurants/new" %></center>
 
