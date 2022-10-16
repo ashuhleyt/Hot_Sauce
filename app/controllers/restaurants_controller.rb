@@ -11,7 +11,11 @@ class RestaurantsController < ApplicationController
   end
 
   def create 
-    restaurant = Restaurant.create!(name: params[:name])
+    restaurant = Restaurant.create!(restaurant_params)
     redirect_to "/restaurants/"
+  end
+
+  def restaurant_params
+    params.permit(:name)
   end
 end
