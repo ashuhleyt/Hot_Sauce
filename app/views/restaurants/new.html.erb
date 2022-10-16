@@ -1,0 +1,6 @@
+<%= link_to "New Restaurant", "/restaurants/new" %>
+<center><%= form_with url: '/restaurants', method: :post, local: true do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+  <%= form.submit 'Create Restaurant' %>
+<% end %></center>

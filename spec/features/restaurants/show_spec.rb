@@ -35,7 +35,8 @@ RSpec.describe 'parent show page' do
    it 'provides link to childs page associated by ID' do 
       visit "/restaurants/#{@restaurant.id}"
 
-      expect(page).to have_link("Illegal Petes Sauces", href: '/spicy_sauces/1')
+    
+      expect(page).to have_selector(:css, "a[href='/restaurants/#{@restaurant.id}/spicy_sauces']")
     end
   end
 end
