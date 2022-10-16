@@ -25,9 +25,15 @@ RSpec.describe 'parent show page' do
       visit "/restaurants/#{@restaurant.id}"
 
       expect(page).to have_content("#{@restaurant.name}")
-      expect(page).to have_content('Number of Hot Sauces: 5')
-      # expect(page).to have_content("#{@restaurant1.name}")
-      # expect(page).to have_content('Number of Hot Sauces: 4')
+      expect(page).to have_content("Number of Hot Sauces: 4")
+    end
+  end
+
+  describe 'iteration 1, us 10' do 
+   it 'provides link to childs page associated by ID' do 
+      visit "/restaurants/#{@restaurant.id}"
+
+      expect(page).to have_link("Illegal Petes Sauces", href: '/spicy_sauces/1')
     end
   end
 end
