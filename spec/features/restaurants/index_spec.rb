@@ -22,4 +22,11 @@ RSpec.describe 'iteration 1, us-1' do
       expect(@restaurant1.name).to appear_before(@restaurant.name)
     end
   end
+
+  it 'links to the new page from the restaurant index' do 
+    visit '/restaurants'
+
+    click_link("New Restaurant")
+    expect(current_path).to eq('/restaurants/new')
+  end
 end
