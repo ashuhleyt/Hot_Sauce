@@ -18,13 +18,5 @@ RSpec.describe 'restaurant spicy sauces' do
       expect(page).to have_content('Calories: 25')
       expect(page).to have_content('Made Fresh: true')
     end
-  # describe 'it1 US 5' do 
-  #   it 'When I visit /parents/:parent_id/child_table_name, Then I see each Child that is associated with that Parent with each Childs attributes' do 
-  #     visit "/restaurants/#{@restaurant1.id}/spicy_sauces"
-  #     expect(page).to have_content('Name: Colfax Crusader')
-  #     expect(page).to have_content('Spice Level: 8.5')
-  #     expect(page).to have_content('Calories: 25')
-  #     expect(page).to have_content('Made Fresh: true')
-  #   end
-  # end
+  end 
 end
