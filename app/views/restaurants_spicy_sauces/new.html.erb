@@ -1,0 +1,12 @@
+<%= form_with url: "/restaurants/#{@restaurant.id}/spicy_sauces", method: :post, local: true do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+  <%= form.label :spice_level %>
+  <%= form.text_field :spice_level %>
+  <%= form.label :calories %>
+  <%= form.text_field :calories %>
+  <%= form.label :made_today %>
+  <%= form.text_field :made_today %>
+
+  <%= form.submit "Create Sauce" %>
+<% end %>

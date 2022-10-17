@@ -251,6 +251,9 @@
           1,
           1,
           1,
+          1,
+          1,
+          1,
           null
         ]
       },
@@ -279,19 +282,28 @@
           null
         ]
       },
-      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/models/spicy_sauce.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
       "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/controllers/restaurants_spicy_sauces_controller.rb": {
         "lines": [
           1,
           1,
-          2,
-          2,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -301,8 +313,15 @@
           1,
           null
         ]
+      },
+      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/models/spicy_sauce.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1665959661
+    "timestamp": 1666043861
   }
 }
