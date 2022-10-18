@@ -1,0 +1,11 @@
+<center><%= form_with url: "/spicy_sauces/#{@spicysauces.id}", method: :patch, local: true do |form| %>
+  <p><b><%= form.label :name %></p>
+  <p><%= form.text_field :name %></p>
+  <p><%= form.label :spice_level %></p>
+  <p><%= form.text_field :spice_level %></p>
+  <p><%= form.label :calories %></p>
+  <p><%= form.text_field :calories %></p>
+  <p><%= form.label :made_today %></p>
+  <p><%= form.text_field :made_today %></b></p>
+  <p><%= form.submit 'Update Sauce' %></center></p>
+<% end %>
