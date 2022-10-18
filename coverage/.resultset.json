@@ -303,17 +303,6 @@
       },
       "/Users/ashleyturner/turing/2mod/projects/hot_sauce/spec/features/restaurants/new_spec.rb": {
         "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           1,
           null,
           1,
@@ -359,8 +348,6 @@
           null,
           1,
           1,
-          null,
-          null,
           null,
           null,
           null,
@@ -423,23 +410,8 @@
           null,
           1,
           null,
-          null,
           1,
           1,
-          null,
-          null
-        ]
-      },
-      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/spec/features/spicy_sauces/edit_spec.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null,
           null
         ]
@@ -450,8 +422,8 @@
           null,
           1,
           1,
-          1,
-          1,
+          2,
+          2,
           null,
           1,
           1,
@@ -465,16 +437,17 @@
           null,
           null,
           null,
+          1,
+          1,
+          1,
           null,
+          1,
           null,
+          0,
           null,
+          0,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          0,
           null,
           null,
           null
@@ -550,19 +523,59 @@
           null
         ]
       },
+      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/spec/models/restaurant_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          2,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/models/restaurant.rb": {
         "lines": [
           1,
           1,
           null,
           1,
-          3,
+          5,
           null,
           null,
           null
         ]
       },
       "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/spec/models/spicy_sauce_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          null
+        ]
+      },
+      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/models/spicy_sauce.rb": {
         "lines": [
           1,
           1,
@@ -611,13 +624,6 @@
           null
         ]
       },
-      "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/models/spicy_sauce.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
       "/Users/ashleyturner/turing/2mod/projects/hot_sauce/app/controllers/restaurants_spicy_sauces_controller.rb": {
         "lines": [
           1,
@@ -647,7 +653,7 @@
         "lines": [
           1,
           1,
-          1,
+          2,
           null,
           null,
           1,
@@ -671,6 +677,6 @@
         ]
       }
     },
-    "timestamp": 1666122809
+    "timestamp": 1666124380
   }
 }
