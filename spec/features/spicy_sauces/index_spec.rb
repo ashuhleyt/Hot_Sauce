@@ -16,17 +16,4 @@ RSpec.describe 'iteration 1, us3' do
       expect(page).to have_content('Made Fresh: true')
     end
   end
-
-  # describe 'sauce edit' do 
-  #   it 'links to the edit page for sauces' do 
-  #   restaurant = Restaurant.create!(name: 'Illegal Petes')
-  #   spicysauce = restaurant.spicy_sauces.create!(name: 'Hayes Ways')
-
-  #   visit '/spicy_sauces'
-
-  #   click_button "Edit #{spicysauce.name}"
-    
-  #   expect(current_path).to eq("/spicy_sauces/#{spicysauce.id}/edit")
-  #   end
-  # end
 end
