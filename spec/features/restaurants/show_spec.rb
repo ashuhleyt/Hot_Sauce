@@ -28,9 +28,7 @@ RSpec.describe 'parent show page' do
       expect(page).to have_content("Number of Hot Sauces: 4")
     end
   end
-  # As a visitor
-  # When I visit a parent show page ('/parents/:id')
-  # Then I see a link to take me to that parent's `child_table_name` page ('/parents/:id/child_table_name')
+ 
   describe 'iteration 1, us 10' do 
    it 'provides link to childs page associated by ID' do 
       visit "/restaurants/#{@restaurant.id}"

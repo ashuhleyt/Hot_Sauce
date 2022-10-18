@@ -6,9 +6,8 @@ RSpec.describe 'sauce creation' do
     visit "/restaurants/#{restaurants.id}/spicy_sauces/new"
     
     fill_in('Name', with: 'Magic Eraser')
-    # fill_in('Spice Level')
+
     click_button('Create Sauce')
-    
     
     expect(current_path).to eq("/restaurants/#{restaurants.id}/spicy_sauces")
     expect(page).to have_content("Magic Eraser")

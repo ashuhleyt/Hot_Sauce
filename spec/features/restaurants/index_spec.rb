@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'iteration 1, us-1' do 
+RSpec.describe 'index pages' do 
   before :each do 
     @restaurant = Restaurant.create!(name: 'Illegal Petes', rating: 5, allows_children: true)
     @restaurant1 = Restaurant.create!(name: 'Pinche Tacos', rating: 4, allows_children: false)

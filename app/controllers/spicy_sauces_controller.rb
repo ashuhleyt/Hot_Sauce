@@ -16,7 +16,7 @@ class SpicySaucesController < ApplicationController
     @spicysauces.update(spicy_sauce_params)
     redirect_to "/spicy_sauces/"
   end
-
+private
   def spicy_sauce_params
     params.permit(:name)
   end
