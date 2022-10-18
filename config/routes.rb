@@ -12,4 +12,6 @@ Rails.application.routes.draw do
   get '/restaurants/:id/edit', to: 'restaurants#edit'
   patch '/restaurants/:id', to: 'restaurants#update'
   post '/restaurants/:id/spicy_sauces', to: 'restaurants_spicy_sauces#create'
+  get '/spicy_sauces/:id/edit', to: 'spicy_sauces#edit'
+  patch '/spicy_sauces/:id', to: 'spicy_sauces#update'
 end
