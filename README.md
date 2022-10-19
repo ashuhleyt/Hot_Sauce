@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is my first rails project. 
 
-Things you may want to cover:
+It is a one to many relationship between restaurants and the hot sauces that they carry. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Used postgresql, active record, and CRUD.
+![Screen Shot 2022-10-19 at 11 22 10 AM](https://user-images.githubusercontent.com/105073232/196773301-01b22300-4046-47b9-a03b-f2e592a00f89.png)
